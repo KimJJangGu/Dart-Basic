@@ -15,8 +15,8 @@ class Cleric {
   // static은 instance에 귀속되지 않고 class에 귀속
   // 객체를 생성하지 않아도 사용이 가능하며, 속도가 빠르다
 
-  static int maxHP = 50;
-  static int maxMP = 10;
+  int maxHP = 50;
+  int maxMP = 10;
 
   Cleric(this.name, {this.hp = 50, this.mp = 10});
 }
