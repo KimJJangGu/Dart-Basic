@@ -18,7 +18,7 @@ class Cleric {
   static int maxHP = 50;
   static int maxMP = 10;
 
-  Cleric(this.name, {this.hp = maxHP, this.mp = maxMP});
+  Cleric(this.name, {this.hp = 50, this.mp = 10});
 }
 
 void main() {
@@ -31,7 +31,7 @@ void main() {
   final cleric3 = Cleric('아서스');
 
   // Cleric()과 같이 이름을 지정하지 않는 경우 인스턴스화 할 수 없다
-  //final cleric4 = Cleric();
+  // final cleric4 = Cleric();
 
   print(cleric1);
   print(cleric2);
