@@ -8,8 +8,8 @@ class Slime {
 
   void attack(Hero hero) {
     print('슬라임 $suffix이 공격했다.');
-    print('10의 데미지');
     hero.hp -= 10;
+    print('10의 데미지');
   }
 }
 
