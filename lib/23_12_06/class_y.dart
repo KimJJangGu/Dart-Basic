@@ -1,5 +1,5 @@
 import 'class_x.dart';
 
-abstract class Y implements X{
+abstract class Y implements X {
   void b();
 }

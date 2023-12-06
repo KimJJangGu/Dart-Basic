@@ -1,6 +1,7 @@
+import 'class_b.dart';
 import 'class_y.dart';
 
-class A extends Y{
+class A extends Y {
   @override
   void a() {
     print('Aa');
@@ -11,7 +12,7 @@ class A extends Y{
     print('Ab');
   }
 
-  void c(){
+  void c() {
     print('Ac');
   }
 }
