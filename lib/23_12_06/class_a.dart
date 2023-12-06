@@ -15,3 +15,8 @@ class A extends Y{
     print('Ac');
   }
 }
+
+void main() {
+  A a = A();
+  print(a);
+}
