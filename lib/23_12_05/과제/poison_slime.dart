@@ -23,7 +23,7 @@ class PoisonSlime extends Slime {
 
       hero.hp -= enemyHP;
     }
-    print('용사의 남은 HP: ${hero.hp}');
+      print('용사의 남은 HP: ${hero.hp}');
   }
 }
 
