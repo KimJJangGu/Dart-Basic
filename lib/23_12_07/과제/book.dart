@@ -1,13 +1,9 @@
 void main() {
-  Book book1 =
-      Book(title: '코딩', publishDate: DateTime(2023, 12, 07), comment: '다트');
-  Book book2 =
-      Book(title: '코딩', publishDate: DateTime(2023, 12, 07), comment: '패드');
+  Book book1 = Book(title: '코딩', publishDate: DateTime(2023, 12, 07), comment: '다트');
+  Book book2 = Book(title: '코딩', publishDate: DateTime(2023, 12, 07), comment: '패드');
 
-  Book book3 =
-      Book(title: '코딩', publishDate: DateTime(2003, 12, 07), comment: '패드');
-  Book book4 =
-      Book(title: '코딩', publishDate: DateTime(2013, 12, 07), comment: '패드');
+  Book book3 = Book(title: '코딩', publishDate: DateTime(2003, 12, 07), comment: '패드');
+  Book book4 = Book(title: '코딩', publishDate: DateTime(2013, 12, 07), comment: '패드');
 
   // 제목과 출간일이 같으면 같은 책으로 판단, 또한 Set 에 넣으면 동일 객체로 판단
   print(book1 == book2);
