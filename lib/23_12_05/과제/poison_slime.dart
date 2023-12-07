@@ -11,16 +11,19 @@ class PoisonSlime extends Slime {
   void attack(Hero hero) {
     super.attack(hero);
 
-    if(_poisonAttack > 0) {
+    if (_poisonAttack > 0) {
       int enemyHP = hero.hp ~/ 5;
 
       print('추가로, 독 포자를 살포했다!');
       print('$enemyHP 포인트의 데미지');
+
       _poisonAttack -= 1;
+
       print('독 공격 남은 횟수: $_poisonAttack');
+
       hero.hp -= enemyHP;
     }
-      print('용사의 남은 HP: ${hero.hp}');
+    print('용사의 남은 HP: ${hero.hp}');
   }
 }
 
