@@ -2,7 +2,7 @@ import 'asset.dart';
 import 'thing.dart';
 
 abstract class TangibleAsset extends Asset implements Thing {
-  int price;
+
   String color;
   double _weight;
 
@@ -18,7 +18,7 @@ abstract class TangibleAsset extends Asset implements Thing {
 
   TangibleAsset({
     required super.name,
-    required this.price,
+    required super.price,
     required this.color,
     required double weight
   }) : _weight = weight;
